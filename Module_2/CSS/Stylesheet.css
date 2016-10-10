@@ -1,72 +1,47 @@
 <style>
 
 /********** Base styles **********/
-h1 {
-  margin-bottom: 15px;
-}
-body {
-  margin: 0;
-  background-color:#00334d;
-}
+h1 {}
+body{background-color:#00334d;}
+
+/********** Header **********/
 .title{
   margin-top: 80px;
   color: white;
   text-align: center;
   font-style: italic;
   font-family: helvetica;
-
 }
-.column {
-  /*background-color: #cc9966;*/
-  width: 50%;
-  /*height: 150px;*/
-  padding: 10px;
-  /*margin-right: auto;*/
-  /*margin-left: auto;*/
-  color: white;
-
-}
-p.Course{
-  float:right;
-  color: blue;
-   /*border: 5px solid black;*/
-   background-color: black;
-   margin-top: 0px;
-padding-left: 5px;
-padding-right: 5px;
-font-weight: 900;
-}
-.Course, #Rice{
-color: white;
-}
-.Course, #Tofu{
-color: red;
-}
-.Course, #Veggies{
- color: #008000;
-}
-.BOX {
-margin-left: 5%;
-margin-right: 5%;
-
-}
+/********** Box Styles **********/
 .Menu {
      font-family: helvetica;
-   font-size: 18px;
-   border: 6px black solid;
-   margin: 50px;
-   background-color:   #006699;
-    padding:20px;
+     font-size: 18px;
+     border: 6px black solid;
+     background-color:#006699;
 }
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
+/********** Meal Text - Alice in Wonderland **********/
+.MealDescription{
+margin-top: 12px;
+padding: 20px;
 }
+/********** Meal Name Styles **********/
+div.MealTitle{
+  float:right;
+  color: blue;
+  background-color: black;
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 10%;
+padding-right: 10%;
+font-weight: 900;
+}
+.MealTitle, #Rice{color: white;}
+.MealTitle, #Tofu{color: red;}
+.MealTitle, #Veggies{color: #008000;}
+
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    box-sizing: border-box;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -109,9 +84,6 @@ margin-right: 5%;
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    /*border: 10px solid red;*/
-    box-sizing: border-box;
   }
   .col-md-1 {
     width: 8.33%;
@@ -150,11 +122,9 @@ margin-right: 5%;
     width: 100%;
   }
 }
+/********** Small devices only **********/
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left;
-    /*border: 10px solid blue;*/
-    box-sizing: border-box;
   }
   .col-sm-1 {
     width: 8.33%;
@@ -193,6 +163,14 @@ margin-right: 5%;
     width: 100%;
   }
 }
+/* -----------Design for all types of columns ------------ */
+.column {
+  padding: 10px;
+  color: white;
+      float: left;
+    box-sizing: border-box;
+}
+/* ---------------Footer Style --------------*/
 .footer {
   clear: left;
   color: white;
