@@ -26,16 +26,17 @@ padding: 20px;
 div.MealTitle{
   float:right;
   color: blue;
-  background-color: black;
 padding-top: 2px;
 padding-bottom: 2px;
 padding-left: 10%;
 padding-right: 10%;
 font-weight: 900;
+border-left: 5px black solid;
+border-bottom: 5px black solid;
 }
-.MealTitle, #Rice{color: white;}
-.MealTitle, #Tofu{color: red;}
-.MealTitle, #Veggies{color: #008000;}
+.MealTitle, #Rice{color: white;  background-color:  #b3002d;}
+.MealTitle, #Tofu{color: #b3002d;  background-color: white;}
+.MealTitle, #Veggies{color:black;background-color: #ffccd9;}
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
