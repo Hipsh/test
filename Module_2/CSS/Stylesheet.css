@@ -14,7 +14,7 @@ body{background-color:#00334d;}
 .Menu {
      font-family: helvetica;
      font-size: 18px;
-     border: 6px black solid;
+     border: 1px black solid;
      background-color:#006699;
 }
 /********** Meal Text - Alice in Wonderland **********/
@@ -31,8 +31,8 @@ padding-bottom: 2px;
 padding-left: 10%;
 padding-right: 10%;
 font-weight: 900;
-border-left: 5px black solid;
-border-bottom: 5px black solid;
+border-left: 1px black solid;
+border-bottom: 1px black solid;
 }
 .MealTitle, #Rice{color: white;  background-color:  #b3002d;}
 .MealTitle, #Tofu{color: #b3002d;  background-color: white;}
