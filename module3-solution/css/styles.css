@@ -1,0 +1,27 @@
+#mega-title {
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #222;
+  color: #cca;
+}
+
+.drop-items  a{
+  border:solid black 2px;
+  clear: both;
+  background-color: #222;
+  opacity: 0.9;
+  text-align: center;
+  border-radius: 0px 0px 8px 8px
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.man-in-a-box{
+  box-sizing: border-box;
+}
+.man-in-a-man-in-a-box{
+    margin:10px;
+     background-color:#666; 
+       padding:  15px;
+  border-radius: 10px;  
+
+  }
